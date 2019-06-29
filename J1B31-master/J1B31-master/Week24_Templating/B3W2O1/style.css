@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.page-footer {
+    background: lightgray;
+}
+
+.footer-copyright {
+    background: gray;
+}

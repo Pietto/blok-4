@@ -1,0 +1,23 @@
+.morning {
+    background-image: url(img/morning.png);
+}
+
+.afternoon {
+    background-image: url(img/afternoon.png);
+}
+
+.evening {
+    background-image: url(img/evening.png);
+}
+
+.night {
+    background-image: url(img/night.png);
+}
+
+h1, h2 {
+    font-family: 'Lucida Calligraphy';
+    position: relative;
+    top: 300px;
+    left: 35%;
+    color: black;
+}

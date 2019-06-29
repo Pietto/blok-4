@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(80, 80, 80);
+}
+
+form>p {
+    padding-left: 20px;
+}
+
+p>input {
+    float: right;
+    margin-right: 20px;
+}
+
+.row {
+    margin: 0;
+}
+
+.form-group>div>input, .games-select {
+    float: right;
+    margin-right: 20px;
+}
+
+.label {
+    margin-left: 20px;
+}
+
+span {
+    float: right;
+    margin-right: 20px;
+    color: red;
+}
+
+form>input {
+    margin: 0 0 20px 20px;
+}
+
+.logo {
+    width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.container h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0 10px 30px;
+}
+
+.navbar {
+    width: auto;
+    height: 45px;
+    background-color: rgb(151, 26, 26);
+}
+
+.navbar a {
+    color: snow;
+    font-size: 23px;
+}
+
+.contentForm>p {
+    float: right;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 7px;
+    height: 40px;
+    width: auto;
+    background-color: darkslategray;
+    color: white;
+}
+
+.description {
+    margin: 20px;
+}
+
+.vid {
+    float: right;
+}
+
+.thumbnail>p {
+    text-align: center;
+}
+
+.images {
+    height: 140px;
+    width: 140px;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.gamecontainer {
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    padding: 10px;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}

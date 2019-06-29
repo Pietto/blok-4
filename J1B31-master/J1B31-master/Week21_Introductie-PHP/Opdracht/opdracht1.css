@@ -1,0 +1,99 @@
+body {
+    width: 1100px;
+}
+
+.morning {
+    background-image: url(img/morning.png)
+}
+
+.afternoon {
+    background-image: url(img/afternoon.png)
+}
+
+.evening {
+    background-image: url(img/evening.png)
+}
+
+.night {
+    background-image: url(img/night.png)
+}
+
+h1, h2 {
+    font-family: 'Lucida Calligraphy';
+    position: relative;
+    top: 300px;
+    left: 45%;
+    color: black;
+    width: 800px;
+}
+
+p {
+    font-family: 'Lucida Calligraphy';
+    position: relative;
+    top: 300px;
+    left: 35%;
+    color: black;
+}
+
+.head {
+    width: 75px;
+}
+
+.nav {
+    margin-left: 400px;
+    height: 75px;
+    width: 600px;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+
+.nav a {
+    position: relative;
+    left: 30px;
+    top: 28px;
+    margin-left: 15px;
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 20px;
+    color: rgb(231, 0, 0);
+}
+
+.nav a:hover {
+    background-color: darkcyan;
+    color: aquamarine;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0 auto;
+}
+
+.tafel {
+    position: relative;
+    top: 300px;
+}
+
+.tafel p {
+    grid-row: 2;
+    position: relative;
+    top: -300px;
+    left: 280px;
+}
+
+.footer {
+    position: relative;
+    top: 580px;
+    height: 25px;
+    width: 1520px;
+    background-color: gainsboro;
+    border-radius: 20px;
+}
+
+.footer footer {
+    float: right;
+    position: relative;
+    right: 300px;
+    top: 5px;
+    color: rgb(231, 0, 0);
+}

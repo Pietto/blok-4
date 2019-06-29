@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(80, 80, 80);
+    font-family: Archivo;
+}
+
+h1 {
+    color: white;
+    margin-left: 30%;
+    font-weight: bold;
+}
+
+p {
+    font-family: Archivo;
+    margin-left: 20px;
+}
+
+.container {
+    height: auto;
+    width: 800px;
+    background-color: white;
+    position: relative;
+    
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.container h2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.nav {
+    width: 800px;
+    height: 45px;
+    background-color: rgb(151, 26, 26);
+}
+
+.nav a {
+    color: snow;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.footer {
+    position: relative;
+    top: 20px;
+    ;
+    height: 45px;
+    width: 800px;
+    background-color: darkslategray;
+}
+
+.footer p {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.result {
+    display: none;
+}
+
+.form-horizontal {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-6 {
+        width: 40%;
+    }
+}
+
+p > input {
+    margin-right: 100px;
+}
+
+input {
+    margin: 0px;
+    float: right;
+}
+
+.footer > p {
+    padding-top: 10px;
+}
