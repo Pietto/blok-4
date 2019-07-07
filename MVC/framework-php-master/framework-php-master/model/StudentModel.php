@@ -18,7 +18,6 @@ function createcustomer($dataname,$datatime,$datalength,$datahorse){
 	$time = $datatime;
 	$length = $datalength;
 	$horse = $datahorse;
-	echo $name,$time,$length,$horse;
 	echo '<script>alert(\'Succesvol een reservering gemaakt om '.$time.'\')</script>';
 
 	$servername = "localhost";
@@ -107,7 +106,6 @@ function credentials(){
 }
 function deleteCustomer($dataid){
 	$id = $dataid;
-	echo $id;
     
 	$servername = "localhost";
 	$username = "root";

@@ -3,6 +3,9 @@ require(ROOT . "model/StudentModel.php");
 function index()
 {
 	render("home/index");
+	echo('<script type="text/javascript">document.getElementById(\'homeli\').setAttribute(\'class\',\'active\');</script>');
+	echo('<script type="text/javascript">document.getElementById(\'overzichtli\').removeAttribute("class");</script>');
+
 }
 
 function createPage()
@@ -83,7 +86,9 @@ function delete()
 
 function keep()
 {
-	echo 'keep';
+	render('home/index');
+	echo('<script type="text/javascript">document.getElementById(\'homeli\').setAttribute(\'class\',\'active\');</script>');
+	echo('<script type="text/javascript">document.getElementById(\'overzichtli\').removeAttribute("class");</script>');
 }
 
 ?>
