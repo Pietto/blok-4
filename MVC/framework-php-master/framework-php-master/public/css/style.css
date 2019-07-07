@@ -1,3 +1,204 @@
 body{
-	background-color: yellow;
+	margin: 2.5%;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 125%;
+	color: white;
+	background-color: rgb(50,50,50);
+	padding-bottom: 100px;
+}
+#top{
+	background-color: rgba(255, 219, 67);
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 20px;
+	border: 1px solid #1d2731;
+	box-shadow: 5px 10px 20px 10px black;
+}
+#header h1,#header h2{
+	text-align: center;
+	position: relative;
+	top: 10%;
+	color: rgb(51, 51, 51);
+}
+#header h2{
+	font-family: Yu Gothic UI Light, Calibri;
+	letter-spacing: 10px;
+}
+#header h1{
+	font-family: Verdana Pro SemiBold, arial black;
+}
+#header{
+	background-image: radial-gradient(rgba(255, 206, 0, 0.75), rgba(255, 221, 81, 0.75));
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 15px;
+	height: 125px;
+}
+.navbar{
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 15px;
+	border: 1px solid #1d2731;
+}
+.navbar-brand{
+	margin: 0;
+}
+.active{
+	background-color: rgba(34,34,34,.5) !important;
+}
+.navbar-brand {
+	cursor: default;
+}
+.container,#container{
+	background-image: radial-gradient(rgba(11, 60, 93, 0.75), rgba(0, 0, 0, 0.75));
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 15px;
+	height: auto;
+	border: 1px solid black;
+	box-shadow: 5px 10px 20px 10px black;
+	padding: 15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#container{
+	padding: 0;
+	align-content: center;
+	width: 25vw;
+	margin: 1.5vw;
+	display: inline-block;
+}
+#container>img{
+	width: 24vw;
+	height: auto;
+	align-content: center;
+}
+#containerholder{
+	text-align: center;
+	align-content: center;
+}
+.input{
+	width: 30vw;
+	text-align: left;
+}
+select{
+	position: relative;
+	left: 16px;
+}
+.card{
+	background-color: white;
+	width: 20vw;
+	display: inline-block;
+	margin: .5vw;
+	padding: .5vw;
+	vertical-align: top;
+	transition: .5s;
+	border-radius: 15px;
+	color: black;
+	padding: 0 1vw;
+}
+.card p{
+	font-family: bahnschrift light;
+	font-size: 20px;
+}
+.card h1{
+	font-family: verdana;
+	font-size: 2.2vw;
+	width: 20vw;
+}
+.card:hover{
+	box-shadow: 0 0 150px 20px black;
+}
+#cardname{
+	font-weight: bolder;
+	text-align: center;
+	font-size: 30px;
+}
+#footer{
+	background-color: rgba(34, 34, 34, 1); 
+	color: black;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 20px 20px 0 0;
+	border: 1px solid black;
+	margin: 0 auto;
+	height: -10%;
+	box-shadow: 0px 0px 20px 10px black;
+}
+#footer h1{
+	font-size: 20px;
+	font-family: Yu Gothic UI Light, Calibri;
+	font-weight: bolder;
+	letter-spacing: 2.5px;
+	color: rgb(157, 157, 157);
+	position: relative;
+	bottom: 5px;
+}
+.btn{
+	background-color: #ffce00;
+	border: 1px solid black;
+	border-radius: 10px;
+	transition: 0.25s;
+}
+.btn a{
+	text-decoration: none;
+	color: black;
+}
+.btn:hover{
+	background-color: #ffdc49;
+	border: 1px solid black;
+	border-radius: 10px;
+	transition: 0.25s;
+}
+.btn-update{
+	float: left;
+	position: relative;
+	left: -15px;
+	border-radius: 14px;
+}
+.btn-delete{
+	float: right;
+	background-color: red;
+	position: relative;
+	left: 15px;
+	border-radius: 14px;
+}
+.btn-delete:hover,#nobtn:hover{
+	background-color: rgba(200,0,0,1);
+	border-radius: 0;
+}
+a.button {
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+#display-none{
+	display: none;
+}
+.button{
+	background-color: black;
+	border: 0px solid black;
+	border-radius: 25px;
+	width: 100px;
+	height: 40px;
+}
+#yes-btn{
+	background-image: linear-gradient(white 0%,green 25% ,darkgreen);
+}
+.inline{
+	display: inline-block;
+}
+#no-btn{
+	background-image: linear-gradient(white 0%,red 25% ,darkred);
+	height: 40px;
+	color: white;
+}
+a.button{
+	height: 40px;	
 }

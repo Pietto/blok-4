@@ -8,8 +8,8 @@
 			foreach($data as $data){
 				echo '<div id="content"><li>';
 				echo '<p id="content-text">'.$data['name'].', '.$data['age'].' jaar oud';
-				echo '<a href="edit/'.$data['id'].'"> Wijzigen</a>';
-				echo '<a href="delete/'.$data['id'].'"> Verwijderen</a>';
+				echo '<a href="employee/edit/'.$data['id'].'"> Wijzigen</a>';
+				echo '<a href="employee/delete/'.$data['id'].'"> Verwijderen</a>';
 				echo '</p>';
 				echo '</li></div>';
 			?>

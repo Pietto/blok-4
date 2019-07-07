@@ -2,9 +2,14 @@
 
 require(ROOT . "model/StudentModel.php");
 
-function index()
-{
+function index(){
 	render("student/index", array(
 		'students' => getAllStudents()
 	));
 }
+
+function createPage(){
+	render("home/create");	
+}
+
+?>
